@@ -1,6 +1,7 @@
 import React from 'react';
 import TextInput from '../common/TextInput';
 import SelectInput from '../common/SelectInput';
+import toastr from 'toastr';
 
 const CourseForm = ({ course, allAuthors, onSave, onChange, saving, errors }) => {
     return (
